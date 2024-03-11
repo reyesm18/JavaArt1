@@ -65,6 +65,7 @@ public class ImageGenerator {
         for(int row = top; row < top + height; row++){
             for(int col = left; col < left + width; col++){
                 //check to make sure you are in bounds
+                //hint: this will help with circle stuff
                 if(row >=0 && row<HEIGHT && col>=0 && col<WIDTH)
                     image[row][col] = color;
             }
