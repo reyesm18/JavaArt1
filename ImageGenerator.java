@@ -73,6 +73,7 @@ public class ImageGenerator {
     }
 
     private void drawCircle(int centerX, int centerY, int radius, Color color, Color gradientColor) {
+        //check to see if centerY +- radius or centerX +- radius is out of bounds
         for (int row = centerY - radius; row <= centerY + radius; row++) {
             for (int col = centerX - radius; col <= centerX + radius; col++) {
                 if ((col - centerX) * (col - centerX) + (row - centerY) * (row - centerY) <= radius * radius) {
