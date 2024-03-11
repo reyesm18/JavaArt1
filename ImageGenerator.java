@@ -44,8 +44,14 @@ public class ImageGenerator {
             //drawCircle(randomXPosition, randomYPosition, 1, WHITE, WHITE);
         }
 
-        drawRect(200, 100, 50, 20, GREEN);
-        drawCircle(200, 100, 50, BLUE, BLACK);
+        drawRect(200, 100, 70, 20, GREEN);
+        drawRect(100,50,100,20,RED);
+        drawRect(30,50,20,20,WHITE);
+        drawCircle(80, 10, 50, BLUE, BLACK);
+        drawCircle(70, 90, 30, BLUE, RED);
+    
+    
+
     }
 
     /**
